@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.markurz.wheresethan.TrackingActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="16dp"
+            android:orientation="vertical"
+            android:id="@+id/radios_holder">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Away"
+                android:id="@+id/away_radio"
+                android:checked="false"
+                android:textSize="18sp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Main"
+                android:id="@+id/main_radio"
+                android:checked="false"
+                android:textSize="18sp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Kitchen"
+                android:id="@+id/kitchen_radio"
+                android:checked="false"
+                android:textSize="18sp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Bedroom"
+                android:id="@+id/bedroom_radio"
+                android:checked="false"
+                android:textSize="18sp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Bathroom"
+                android:id="@+id/bathroom_radio"
+                android:checked="false"
+                android:textSize="18sp"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:id="@+id/players_holder"
+            android:weightSum="360"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Data Points"
+                android:id="@+id/data_points_label"
+                android:layout_weight="180"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"/>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/export_button"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_weight="180">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="EXPORT"
+                    android:id="@+id/export_label"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center_vertical|right"
+                    android:textSize="14sp"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:id="@+id/points_recycler_view"/>
+    </LinearLayout>
+</RelativeLayout>

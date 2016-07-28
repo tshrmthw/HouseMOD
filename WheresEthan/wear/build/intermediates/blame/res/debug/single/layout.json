@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/markkurtz/code_unstaged/WheresEthan/wear/build/intermediates/res/merged/debug/layout/alert_dialog_wearable.xml",
+        "source": "/Users/markkurtz/code_unstaged/WheresEthan/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/layout/alert_dialog_wearable.xml"
+    },
+    {
+        "merged": "/Users/markkurtz/code_unstaged/WheresEthan/wear/build/intermediates/res/merged/debug/layout/error_layout.xml",
+        "source": "/Users/markkurtz/code_unstaged/WheresEthan/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/layout/error_layout.xml"
+    }
+]
