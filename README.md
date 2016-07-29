@@ -14,6 +14,8 @@ second cross validation sensor to show that such sensors are
 enough to tell us which rooms are occupied and which rooms are
 not.
 
+Machine Learning Implementation was in Google TensorFlow
+
 # Goals 
 
 A focus of the project was to use a central processing
@@ -35,8 +37,11 @@ the processing and storage of the data. The software is made up of
 several different parts which are broken into different sections, codes
 of which are contained in the different subfolders.
 The first part is the software running on the sensors and central
-processor (Code in subfolder '' ) . The second part is
+processor (Code in subfolder 'Hardware/Adafruit_code' ) . The second part is
 the user interface and software behind it that allowed for
-recording training data and comparison data for the system( Code in subfolder '').
+recording training data and comparison data for the system( Code in subfolder 'Hardware/PIR').
 Finally, there is the machine learning code that powered the occupancy detection technique 
-(Code in Subfolder '').
+(Code in Subfolder 'SourceCode').
+
+Added to this to aid us in collecting training and verification data, an android app was created called "WheresEthan"
+ for real time data collection by manual entry of the persons position in the room that is under opbservation in order to train the Machine Learning ALgorithm (Code in Subfolder 'WheresEthan')
