@@ -49,7 +49,7 @@ Added to this to aid us in collecting training and verification data, an android
  
 # Contributors:
 
-Ethan Glassman , Mark Kurtz
+Tushar Mathew, Ethan Glassman , Mark Kurtz
 
 # Machine Learning INSTALL
 
