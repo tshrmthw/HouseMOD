@@ -113,9 +113,9 @@ python generator.py ­r 1 ­s <sensor data file> ­l <label data file> ­g <gene
 $ source ~/tensorflow/bin/activate # If using bash.
 $ source ~/tensorflow/bin/activate.csh # If using csh.
 (tensorflow)$ # Your prompt should change.
-# Run Python programs that use TensorFlow.
+"# Run Python programs that use TensorFlow.
 ...
-# When you are done using TensorFlow, deactivate the
+"# When you are done using TensorFlow, deactivate the
 (tensorflow)$ deactivate
 python <path_to_machine_learning_folder>/hidden_nn.py ­­test_train <test
 environment.
