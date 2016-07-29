@@ -47,6 +47,10 @@ Added to this to aid us in collecting training and verification data, an android
  for real time data collection by manual entry of the persons position in the room that is under opbservation in order to train the Machine Learning ALgorithm (Code in Subfolder 'WheresEthan')
  
  
+# Contributors:
+
+Ethan Glassman , Mark Kurtz
+
 # Machine Learning INSTALL
 
 An installation of python 2.7 was used on a mac os computer. The installation steps for installing
